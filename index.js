@@ -11,40 +11,6 @@ import { URLs } from "./user-data/urls.js";
 
 const { medium, gitConnected, gitRepo } = URLs;
 
-async function fetchBlogsFromMedium(url) {
-  try {
-    const response = await fetch(url);
-    const { items } = await response.json();
-    populateBlogs(items, "blogs");
-  } catch (error) {
-    throw new Error(
-      `Error in fetching the blogs from Medium profile: ${error}`
-    );
-  }
-}
-
-async function fetchReposFromGit(url) {
-  try {
-    const response = await fetch(url);
-    const items = await response.json();
-    populateRepo(items, "repos");
-  } catch (error) {
-    throw new Error(`Error in fetching the blogs from repos: ${error}`);
-  }
-}
-
-async function fetchGitConnectedData(url) {
-  try {
-    const response = await fetch(url);
-    console.log(response);
-    const { basics } = await response.json();
-    // populateBlogs(items, "blogs");
-    mapBasicResponse(basics);
-  } catch (error) {
-    throw new Error(`Error in fetching the blogs from git connected: ${error}`);
-  }
-}
-
 function mapBasicResponse(basics) {
   const {
     name,
@@ -446,10 +412,6 @@ function getBlogDate(publishDate) {
 populateBio(bio, "bio");
 
 populateSkills(skills, "skills");
-
-fetchBlogsFromMedium(medium);
-fetchReposFromGit(gitRepo);
-fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
 populateTrekking(trekking);
