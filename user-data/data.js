@@ -1,7 +1,7 @@
 export const bio = [
   "Hello, I'm Albani Olivieri!",
   "I am a <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong>",
-  "<i class='fas fa-map-marker' style='font-size:24px'></i> University of California, San Diego",
+  // "<i class='fas fa-map-marker' style='font-size:24px'></i> University of California, San Diego",
   "Email: a1olivieri at ucsd dot edu",
   ""
 ];
