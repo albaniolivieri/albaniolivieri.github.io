@@ -1,8 +1,9 @@
 export const bio = [
-  "Hello, I'm Vinay Somawat!",
-  "<strong>Frontend Software Engineer</strong> with 4+ years of experience building scalable, user-focused web applications.",
-  "Skilled in Angular, TypeScript, and performance optimization, I aim to leverage my expertise in delivering innovative solutions that drive measurable business outcomes.",
-  "Passionate about mentoring, teamwork, and continuous improvement in engineering processes.",
+  "Hello, I'm Albani Olivieri!",
+  "I am a <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong>",
+  "<i class='fas fa-map-marker' style='font-size:24px'></i> University of California, San Diego",
+  "Email: a1olivieri at ucsd dot edu",
+  ""
 ];
 
 export const skills = [
