@@ -1,8 +1,8 @@
 export const bio = [
   "Hello, I'm Albani Olivieri!",
-  "I am a <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong>",
-  // "<i class='fas fa-map-marker' style='font-size:24px'></i> University of California, San Diego",
-  "Email: a1olivieri at ucsd dot edu",
+  "I am a <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong> at University of California, San Diego",
+  "Email: a1olivieri@ucsd.edu",
+  "",
   ""
 ];
 
@@ -164,6 +164,5 @@ export const footer = [
   },
   {
     label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
   },
 ];
