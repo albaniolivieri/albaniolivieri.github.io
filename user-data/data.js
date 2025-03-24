@@ -21,21 +21,81 @@ export const news = [
 
 export const publications = [
   {
-    title: "Monomial and Optimal Quadratization for PDEs",
-    place: "Academic repository of Universidad de Chile",
-    subtitle: "Master thesis",
+    title: "Shiprocket Private Limited",
+    duration: "September 2023 - Present",
+    subtitle: "Software Engineer",
     details: [
-      "This thesis introduces an algorithm for obtaining quadratizations for Partial Differential Equations (PDE).\
-      This is a technique where a PDE system with right-hand side expressions of degrees greater than two is lifted \
-      or transformed into a PDE system with right-hand side expressions of at most quadratic degrees. To accomplish \
-      this, new variables and partial differential equations corresponding to the relations of these auxiliary variables \
-      are introduced. This procedure is used in several scientific fields, such as dynamical systems,nonlinear model \
-      order reduction, and chemical reaction networks, among many others.",
+      "Developed a design system using Stencil and Storybook that provides consistent UI components across platforms, ensuring a cohesive design.",
+      "Developed a dynamic support ticket panel that renders subcategories based on component IDs, handling up to 100 AWBs simultaneously.",
+      "Migrated 30+ modules from AngularJS to Angular 15 using Generative AI tools, reporting directly to the VP of Engineering.",
+      "Designed and implemented advanced features such as keyboard shortcuts, improving operational efficiency by 15 percent.",
+      "Took ownership of OKRs, collaborated with the product team, and mentored two junior developers, cutting their code review iterations and ensuring on-time feature delivery.",
     ],
-    tags: ["Symbolic Computation", "PDEs", "Discrete optimization", "Branch and bound", "Incremental Nearest Neighbor"],
-    icon: 'book'
+    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
+    icon: "truck ",
+  },
+  {
+    title: "Biofourmis India Private Limited",
+    duration: "April 2022 - Jul 2023",
+    subtitle: "Software Engineer",
+    details: [
+      "Spearheaded the implementation of micro-frontends using Module Federation, enabling modular and scalable architecture.",
+      "Earned the Biofourmis Bravo Award for upgrading the application to support flexible operations across multiple geographies.",
+      "Enhanced performance and user experience by integrating Twilio-Video, Countly, and NGXS WebSocket for real-time data management.",
+    ],
+    tags: [
+      "JavaScript",
+      "Angular",
+      "RxJS",
+      "NGXS",
+      "TypeScript",
+      "RxState",
+      "Webpack",
+      "Optimization",
+    ],
+    icon: "heartbeat",
+  },
+  {
+    title: "Novopay Solutions Private Limited",
+    duration: "June 2020 - April 2022",
+    subtitle: "Software Engineer",
+    details: [
+      "Built critical banking features including AePS services (eKYC, cash withdrawal, balance inquiry) used by over 1,00,000 retailers.",
+      "Developed QR code integration for wallet money loading, streamlining retailer workflows and reducing errors by 25 percent.",
+      "Integrated Clevertap analytics, Freshdesk ticketing, and chatbot services, enhancing user support and engagement.",
+    ],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+    icon: "qrcode",
+  },
+  {
+    title: "ThinkPedia LLP",
+    duration: "May 2019 - June 2019",
+    subtitle: "SDE Intern",
+    details: [
+      `Designed and developed a social media post management panel, improving collaboration efficiency by 50 percent.`,
+    ],
+    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+    icon: "group",
   },
 ];
+
+// export const publications = [
+//   {
+//     title: "Monomial and Optimal Quadratization for PDEs",
+//     place: "Academic repository of Universidad de Chile",
+//     subtitle: "Master thesis",
+//     details: [
+//       "This thesis introduces an algorithm for obtaining quadratizations for Partial Differential Equations (PDE).\
+//       This is a technique where a PDE system with right-hand side expressions of degrees greater than two is lifted \
+//       or transformed into a PDE system with right-hand side expressions of at most quadratic degrees. To accomplish \
+//       this, new variables and partial differential equations corresponding to the relations of these auxiliary variables \
+//       are introduced. This procedure is used in several scientific fields, such as dynamical systems,nonlinear model \
+//       order reduction, and chemical reaction networks, among many others.",
+//     ],
+//     tags: ["Symbolic Computation", "PDEs", "Discrete optimization", "Branch and bound", "Incremental Nearest Neighbor"],
+//     icon: 'book'
+//   },
+// ];
 
 export const teaching = [
   "<strong>Algorithm and Data Structures Teaching Assitant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2023",
