@@ -1,9 +1,9 @@
 import {
   bio,
-  skills,
-  education,
-  experience,
-  trekking,
+  news,
+  talks,
+  publications,
+  teaching,
   footer,
 } from "./user-data/data.js";
 
@@ -48,7 +48,7 @@ function populateBio(items, id) {
   });
 }
 
-function populateSkills(items, id) {
+function populateNews(items, id) {
   const skillsTag = document.getElementById(id);
   items.forEach((item) => {
     const h3 = getElement("li", null);
@@ -64,8 +64,8 @@ function populateSkills(items, id) {
   });
 }
 
-function populateTrekking(items) {
-  const skillsTag = document.getElementById('trekking');
+function populateTeaching(items) {
+  const skillsTag = document.getElementById('teaching');
   items.forEach((item) => {
     const h3 = getElement("li", null);
     h3.innerHTML = item;
@@ -261,7 +261,7 @@ function populateExp_Edu(items, id) {
     spanTimelineSublabel.innerHTML = items[i].subtitle;
 
     let spanh2 = document.createElement("span");
-    spanh2.innerHTML = items[i].duration;
+    spanh2.innerHTML = items[i].place;
 
     let h2TimelineLabel = document.createElement("h2");
     h2TimelineLabel.innerHTML = items[i].title;
@@ -288,16 +288,16 @@ function populateExp_Edu(items, id) {
     }
     divTimelineLabel.append(divTags);
 
-    let iFa = document.createElement("i");
-    iFa.className = "fa fa-" + items[i].icon;
+    // let iFa = document.createElement("i");
+    // iFa.className = "fa fa-" + items[i].icon;
 
-    let divTimelineIcon = document.createElement("div");
-    divTimelineIcon.className = "timeline-icon color-2";
-    divTimelineIcon.append(iFa);
+    // let divTimelineIcon = document.createElement("div");
+    // divTimelineIcon.className = "timeline-icon color-2";
+    // divTimelineIcon.append(iFa);
 
-    let divTimelineEntryInner = document.createElement("div");
-    divTimelineEntryInner.className = "timeline-entry-inner";
-    divTimelineEntryInner.append(divTimelineIcon);
+    // let divTimelineEntryInner = document.createElement("div");
+    // divTimelineEntryInner.className = "timeline-entry-inner";
+    // divTimelineEntryInner.append(divTimelineIcon);
     divTimelineEntryInner.append(divTimelineLabel);
 
     let article = document.createElement("article");
@@ -411,10 +411,10 @@ function getBlogDate(publishDate) {
 
 populateBio(bio, "bio");
 
-populateSkills(skills, "skills");
+populateNews(news, "news");
 
-populateExp_Edu(experience, "experience");
-populateTrekking(trekking);
-populateExp_Edu(education, "education");
+populateExp_Edu(publications, "publications");
+populateTeaching(teaching);
+populateExp_Edu(talks, "talks");
 
 populateLinks(footer, "footer");

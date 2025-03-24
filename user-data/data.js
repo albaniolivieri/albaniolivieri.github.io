@@ -1,108 +1,60 @@
 export const bio = [
-  "Hello, I'm Albani Olivieri!",
-  "I am a <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong> at University of California, San Diego",
+  "Welcome to my website! I'm <strong>Albani Olivieri</strong>",
+  "I am a first year <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong> at University of California, San Diego, \
+  working under the supervision of <strong>Prof. <a href='https://kramer.ucsd.edu/index.html target='_blank'>Boris Kramer</a></strong>.",
+  "My current research interests are in optimization algorithms in the field of model order reductions for complex models such as Partial \
+  Differential Equations. Specifically, I am currently working on algorithms that recast PDEs into an specific form, namely quadratization and \
+  polynomialization for PDEs, from symbolical models and from data.",
+  "My background is mainly in Computer Science. In 2024 I obtained both my B.Sc. in Computer Science Engineering and my M.Sc. in Computer Science \
+  from  <a href='https://uchile.cl/ target='_blank'>Universidad de Chile</a>",
   "Email: a1olivieri@ucsd.edu",
-  "",
-  ""
 ];
 
-export const skills = [
-  "JavaScript, TypeScript, Angular, AngularJS, React, HTML5, CSS, Bootstrap",
-  "RxJS, NGXS, NGRX",
-  "Jenkins, JIRA, Webpack, Git",
+export const news = [
+  "<strong>September 2024:</strong> I participated in the <a href='https://more2024.sciencesconf.org/' target='_blank'>MORe2024</a></strong> \
+  conference here in La Jolla, CA. Here, I had the opportunity to present my work on quadratization for PDEs through a poster. It was a great \
+  experience to meet other researchers in the field of model reduction and learn about their work and the state-of-the-art.",
+  "<strong>September 2024:</strong> I moved from Santiago, Chile to San Diego, CA to start my Ph.D. in Mechanical and Aerospace Engineering at UC San Diego!",
+  "<strong>December 2023:</strong> I participated in the 2023 <a href='https://www.cebib-chile.com/workshop2023' target='_blank'>CeBiB Workshop</a></strong> \
+  that was held in Santiago, Chile. I gave a talk about my work on optimal and monomial quadratizations for PDEs and presented a poster on the same subject."
 ];
 
-export const experience = [
+export const publications = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer",
+    title: "Monomial and Optimal Quadratization for PDEs",
+    place: "Academic repository of Universidad de Chile",
+    subtitle: "Master thesis",
     details: [
-      "Developed a design system using Stencil and Storybook that provides consistent UI components across platforms, ensuring a cohesive design.",
-      "Developed a dynamic support ticket panel that renders subcategories based on component IDs, handling up to 100 AWBs simultaneously.",
-      "Migrated 30+ modules from AngularJS to Angular 15 using Generative AI tools, reporting directly to the VP of Engineering.",
-      "Designed and implemented advanced features such as keyboard shortcuts, improving operational efficiency by 15 percent.",
-      "Took ownership of OKRs, collaborated with the product team, and mentored two junior developers, cutting their code review iterations and ensuring on-time feature delivery.",
+      "This thesis introduces an algorithm for obtaining quadratizations for Partial Differential Equations (PDE).\
+      This is a technique where a PDE system with right-hand side expressions of degrees greater than two is lifted \
+      or transformed into a PDE system with right-hand side expressions of at most quadratic degrees. To accomplish \
+      this, new variables and partial differential equations corresponding to the relations of these auxiliary variables \
+      are introduced. This procedure is used in several scientific fields, such as dynamical systems,nonlinear model \
+      order reduction, and chemical reaction networks, among many others.",
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
-    icon: "truck ",
-  },
-  {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
-    details: [
-      "Spearheaded the implementation of micro-frontends using Module Federation, enabling modular and scalable architecture.",
-      "Earned the Biofourmis Bravo Award for upgrading the application to support flexible operations across multiple geographies.",
-      "Enhanced performance and user experience by integrating Twilio-Video, Countly, and NGXS WebSocket for real-time data management.",
-    ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
-    icon: "heartbeat",
-  },
-  {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Built critical banking features including AePS services (eKYC, cash withdrawal, balance inquiry) used by over 1,00,000 retailers.",
-      "Developed QR code integration for wallet money loading, streamlining retailer workflows and reducing errors by 25 percent.",
-      "Integrated Clevertap analytics, Freshdesk ticketing, and chatbot services, enhancing user support and engagement.",
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
-  },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      `Designed and developed a social media post management panel, improving collaboration efficiency by 50 percent.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
+    tags: ["Symbolic Computation", "PDEs", "Discrete optimization", "Branch and bound", "Incremental Nearest Neighbor"],
   },
 ];
 
-export const trekking = [
-  "<strong>Kheerganga Trek</strong>, Himachal Pradesh (9,711 feet)",
-  "<strong>Triund Trek</strong>, Himachal Pradesh (9,350 feet)",
-  "<strong>Kedarkantha Trek</strong>, Uttarakhand (12,500 feet)",
-  "<strong>Jalori Pass Trek</strong>, Himachal Pradesh (10,800 feet)",
-  "<strong>Vaishno Devi Trek</strong>, Jammu & Kashmir (5,200 feet)",
+export const teaching = [
+  "<strong>Algorithm and Data Structures Teaching Assitant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2023",
+  "<strong>Introduction to Programming Teaching Assitant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2021",
+  "<strong>Computational Tools for Engineering and Sciences</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2021",
 ];
 
-export const education = [
+export const talks = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Optimal Monomial Quadratization for PDEs",
+    duration: "2023",
+    subtitle: "XVI Workshop CeBiB",
     details: [],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Symbolic Computation",
+      "PDEs",
+      "Discrete Optimization",
+      "Branch-and-Bound",
+      "Incremental Nearest Neighbor",
     ],
-    icon: "graduation-cap",
-  },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
   },
 ];
 
@@ -144,21 +96,13 @@ export const footer = [
   {
     label: "Links",
     data: [
-      //   {
-      //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/vinaysomawat/",
-      //   },
-      //   {
-      //     text: "Twitter",
-      //     link: "https://twitter.com/thesigmakid",
-      //   },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+        {
+          text: "Linkedin",
+          link: "https://www.linkedin.com/in/albani-olivieri/",
+        },
       {
         text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        link: "https://github.com/albaniolivieri",
       },
     ],
   },
