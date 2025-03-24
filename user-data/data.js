@@ -6,7 +6,7 @@ export const bio = [
   Differential Equations. Specifically, I am currently working on algorithms that recast PDEs into an specific form, namely quadratization and \
   polynomialization for PDEs, from symbolical models and from data.",
   "My background is mainly in Computer Science. In 2024 I obtained both my B.Sc. in Computer Science Engineering and my M.Sc. in Computer Science \
-  from  <a href='https://uchile.cl/' target='_blank'>Universidad de Chile</a>",
+  from  <a href='https://uchile.cl/' target='_blank'>Universidad de Chile</a>.",
   "Email: a1olivieri@ucsd.edu",
 ];
 

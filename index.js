@@ -298,13 +298,13 @@ function populateExp_Edu(items, id) {
     // let divTimelineEntryInner = document.createElement("div");
     // divTimelineEntryInner.className = "timeline-entry-inner";
     // divTimelineEntryInner.append(divTimelineIcon);
-    divTimelineEntryInner.append(divTimelineLabel);
+    // divTimelineEntryInner.append(divTimelineLabel);
 
-    let article = document.createElement("article");
-    article.className = "timeline-entry animate-box";
-    article.append(divTimelineEntryInner);
+    // let article = document.createElement("article");
+    // article.className = "timeline-entry animate-box";
+    // article.append(divTimelineEntryInner);
 
-    mainContainer.append(article);
+    // mainContainer.append(article);
   }
 
   let divTimelineIcon = document.createElement("div");
