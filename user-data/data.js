@@ -33,6 +33,7 @@ export const publications = [
       order reduction, and chemical reaction networks, among many others.",
     ],
     tags: ["Symbolic Computation", "PDEs", "Discrete optimization", "Branch and bound", "Incremental Nearest Neighbor"],
+    icon: 'book'
   },
 ];
 
@@ -55,6 +56,7 @@ export const talks = [
       "Branch-and-Bound",
       "Incremental Nearest Neighbor",
     ],
+    icon: 'microphone'
   },
 ];
 

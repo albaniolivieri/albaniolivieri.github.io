@@ -288,23 +288,23 @@ function populateExp_Edu(items, id) {
     }
     divTimelineLabel.append(divTags);
 
-    // let iFa = document.createElement("i");
-    // iFa.className = "fa fa-" + items[i].icon;
+    let iFa = document.createElement("i");
+    iFa.className = "fa fa-" + items[i].icon;
 
-    // let divTimelineIcon = document.createElement("div");
-    // divTimelineIcon.className = "timeline-icon color-2";
-    // divTimelineIcon.append(iFa);
+    let divTimelineIcon = document.createElement("div");
+    divTimelineIcon.className = "timeline-icon color-2";
+    divTimelineIcon.append(iFa);
 
-    // let divTimelineEntryInner = document.createElement("div");
-    // divTimelineEntryInner.className = "timeline-entry-inner";
-    // divTimelineEntryInner.append(divTimelineIcon);
-    // divTimelineEntryInner.append(divTimelineLabel);
+    let divTimelineEntryInner = document.createElement("div");
+    divTimelineEntryInner.className = "timeline-entry-inner";
+    divTimelineEntryInner.append(divTimelineIcon);
+    divTimelineEntryInner.append(divTimelineLabel);
 
-    // let article = document.createElement("article");
-    // article.className = "timeline-entry animate-box";
-    // article.append(divTimelineEntryInner);
+    let article = document.createElement("article");
+    article.className = "timeline-entry animate-box";
+    article.append(divTimelineEntryInner);
 
-    // mainContainer.append(article);
+    mainContainer.append(article);
   }
 
   let divTimelineIcon = document.createElement("div");
