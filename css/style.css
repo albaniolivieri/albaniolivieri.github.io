@@ -147,6 +147,10 @@ figure figcaption {
 	}
 }
 
+.inline-block{
+	display: inline-block;
+}
+
 .resume-content img {
 	margin: 0 10px;
 	width: 100%;
