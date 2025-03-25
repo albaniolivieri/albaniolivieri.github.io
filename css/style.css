@@ -826,7 +826,7 @@ body.offcanvas .colorlib-nav-toggle {
 	position: absolute;
 	display: block;
 	width: 4px;
-	background: #e2b6b6;
+	background: #b4cbf0;
 	top: 20px;
 	bottom: 20px;
 	margin-left: 29px;
@@ -872,7 +872,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.timeline-entry
 	.timeline-entry-inner
 	.timeline-icon.color-3 {
-	background: #e2b6b6;
+	background: #c8d9f0;
 }
 .timeline-centered
 	.timeline-entry
@@ -2128,7 +2128,7 @@ span {
     vertical-align: middle;
     white-space: nowrap;
     text-align: center;
-    background-color: #7B5151 !important;
+    background-color: #314674 !important;
     border-radius: 10px;
 }
 
