@@ -23,6 +23,7 @@ export const publications = [
   {
     title: "Monomial and Optimal Quadratization for PDEs",
     place: "Academic repository of Universidad de Chile",
+    duration: "2024",
     subtitle: "Master thesis",
     details: [
       "This thesis introduces an algorithm for obtaining quadratizations for Partial Differential Equations (PDE).\
