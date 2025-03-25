@@ -123,7 +123,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background: linear-gradient(135deg, #F7DEDE, #e2b6b6);
+	background: linear-gradient(135deg, #c8d9f0, #a7b5e0);
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
