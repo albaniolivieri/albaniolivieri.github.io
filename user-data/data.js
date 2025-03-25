@@ -7,7 +7,6 @@ export const bio = [
   polynomialization for PDEs, from symbolical models and from data.",
   "My background is mainly in Computer Science. In 2024 I obtained both my B.Sc. in Computer Science Engineering and my M.Sc. in Computer Science \
   from  <a href='https://uchile.cl/' target='_blank'>Universidad de Chile</a>.",
-  "Email: a1olivieri@ucsd.edu",
 ];
 
 export const news = [
@@ -35,7 +34,7 @@ export const publications = [
     ],
     tags: ["Symbolic Computation", "PDEs", "Discrete optimization", "Branch and bound", "Incremental Nearest Neighbor"],
     icon: 'book'
-  },
+  }
 ];
 
 export const teaching = [
@@ -47,6 +46,7 @@ export const teaching = [
 export const talks = [
   {
     title: "Optimal Monomial Quadratization for PDEs",
+    place: "Santiago, Chile",
     duration: "2023",
     subtitle: "XVI Workshop CeBiB",
     details: [],
@@ -58,7 +58,7 @@ export const talks = [
       "Incremental Nearest Neighbor",
     ],
     icon: 'microphone'
-  },
+  }
 ];
 
 export const footer = [
