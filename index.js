@@ -417,4 +417,4 @@ populateExp_Edu(publications, "publications");
 populateTeaching(teaching);
 populateExp_Edu(talks, "talks");
 
-populateLinks(footer, "footer");
+// populateLinks(footer, "footer");

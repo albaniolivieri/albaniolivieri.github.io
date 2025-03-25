@@ -524,6 +524,10 @@ body.offcanvas .colorlib-nav-toggle {
 	transform: translateX(300px);
 }
 
+.colorlib-contact-content {
+	padding: 0 2.5em;
+}
+
 .colorlib-narrow-content {
 	padding: 0 4.5em;
 }
