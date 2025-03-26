@@ -263,8 +263,12 @@ function populateExp_Edu(items, id) {
     let spanh2 = document.createElement("span");
     spanh2.innerHTML = items[i].place;
 
+    let spanh3 = document.createElement("span");
+    spanh3.innerHTML = items[i].duration;
+
     let h2TimelineLabel = document.createElement("h2");
     h2TimelineLabel.innerHTML = items[i].title;
+    h2TimelineLabel.append(spanh3);
     h2TimelineLabel.append(spanh2);
 
     let divTimelineLabel = document.createElement("div");
@@ -275,7 +279,7 @@ function populateExp_Edu(items, id) {
     for (let j = 0; j < items[i].details.length; j++) {
       let pTimelineText = document.createElement("p");
       pTimelineText.className = "timeline-text";
-      pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
+      pTimelineText.innerHTML = items[i].details[j];
       divTimelineLabel.append(pTimelineText);
     }
 
