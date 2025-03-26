@@ -1,5 +1,5 @@
 export const bio = [
-  "Welcome to my website! I'm <strong>Albani Olivieri</strong>",
+  "Welcome to my website! I am <strong>Albani Olivieri.</strong>",
   "I am a first year <strong>Ph.D. Student in Mechanical and Aerospace Engineering</strong> at University of California, San Diego, \
   working under the supervision of <a href='https://kramer.ucsd.edu/index.html' target='_blank'>Prof. Boris Kramer</a>.",
   "My current research interests are in optimization algorithms in the field of model order reductions for complex models such as Partial \

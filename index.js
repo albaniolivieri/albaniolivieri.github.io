@@ -263,7 +263,7 @@ function populateExp_Edu(items, id) {
     let spanh2 = document.createElement("span");
     spanh2.innerHTML = items[i].place;
 
-    let spanh3 = document.createElement("span");
+    let spanh3 = document.createElement("p");
     spanh3.innerHTML = items[i].duration;
 
     let h2TimelineLabel = document.createElement("h2");
