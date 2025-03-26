@@ -53,7 +53,7 @@ export const talks = [
     place: "Santiago, Chile",
     duration: "2023",
     subtitle: "XVI Workshop CeBiB",
-    details: [],
+    details: [''],
     tags: [
       "Symbolic Computation",
       "PDEs",
