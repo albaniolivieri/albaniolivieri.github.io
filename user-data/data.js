@@ -10,7 +10,7 @@ export const bio = [
 ];
 
 export const news = [
-  "<strong>June 2025:</strong> I am excited to participate in the 2025 <a href='https://aimath.org/workshops/upcoming/amigas2025/' target='_blank'>AMIGAs workshop</a></strong>, \
+  "<strong>June 2025:</strong> I am excited to participate in the 2025 <a href='https://aimath.org/workshops/upcoming/eagr-am/' target='_blank'>EaGR workshop</a></strong>, \
   where I will be learning about computer programming, mathematical modeling, and data management. I am looking forward to meeting other \
   researchers and learning about their work in the field of applied mathematics.",
   "<strong>September 2024:</strong> I participated in the <a href='https://more2024.sciencesconf.org/' target='_blank'>MORe2024</a></strong> \
