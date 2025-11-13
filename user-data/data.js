@@ -7,12 +7,18 @@ export const bio = [
   polynomialization for PDEs, from symbolical models and from data.",
   "In 2024 I obtained both my B.Sc. in Computer Science Engineering and my M.Sc. in Computer Science \
   from <a href='https://uchile.cl/' target='_blank'>Universidad de Chile</a>.",
+  "You can find my <a href='../CV_Albani_Olivieri.pdf' target='_blank'>CV here</a>."
+  
+  // "I come from city called Coro, close to the coast in Venezuela. Thanks to my family's support, I was able to persue a carreer "
+  // Talk about my internship in France
+  // Talk about how passionate I am about teaching
 ];
 
 export const news = [
-  "<strong>June 2025:</strong> I am excited to participate in the 2025 <a href='https://aimath.org/workshops/upcoming/eagr-am/' target='_blank'>EaGR workshop</a></strong>, \
-  where I will be learning about computer programming, mathematical modeling, and data management. I am looking forward to meeting other \
-  researchers and learning about their work in the field of applied mathematics.",
+  "<strong>October 2025:</strong> I attended the <a href='https://sites.uci.edu/controlworkshop/' target='_blank'>46th Southern California Control Workshop</a></strong> hosted at UC Irvine. \
+  This is a meeting of control researchers in Southern California, to listen to technical presentations by local graduate students and postdoctoral researchers.",
+  "<strong>June 2025:</strong> I participated in the 2025 <a href='https://aimath.org/workshops/upcoming/eagr-am/' target='_blank'>EaGR workshop</a></strong>, \
+  where I learned about computer programming, mathematical modeling, and data management.",
   "<strong>September 2024:</strong> I participated in the <a href='https://more2024.sciencesconf.org/' target='_blank'>MORe2024</a></strong> \
   conference here in La Jolla, CA. Here, I had the opportunity to present my work on quadratization for PDEs through a poster. It was a great \
   experience to meet other researchers in the field of model reduction and learn about their work and the state-of-the-art.",
@@ -42,6 +48,7 @@ export const publications = [
 ];
 
 export const teaching = [
+  "<strong>Linear Systems Theory</strong>, Graduate course at the Department of Mechanical and Aerospace Engineering, University of Californis San Diego, 2025",
   "<strong>Algorithm and Data Structures Teaching Assistant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2023",
   "<strong>Introduction to Programming Teaching Assistant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2021",
   "<strong>Computational Tools for Engineering and Sciences Teaching Assistant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2021",
