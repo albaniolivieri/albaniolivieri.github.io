@@ -16,7 +16,7 @@ export const bio = [
 
 export const news = [
   "<strong>October 2025:</strong> I attended the <a href='https://sites.uci.edu/controlworkshop/' target='_blank'>46th Southern California Control Workshop</a></strong> hosted at UC Irvine. \
-  This is a meeting of control researchers in Southern California, to listen to technical presentations by local graduate students and postdoctoral researchers.",
+  where I got to listen to technical presentations by local graduate students and postdoctoral researchers in the area of systems and control.",
   "<strong>June 2025:</strong> I participated in the 2025 <a href='https://aimath.org/workshops/upcoming/eagr-am/' target='_blank'>EaGR workshop</a></strong>, \
   where I learned about computer programming, mathematical modeling, and data management.",
   "<strong>September 2024:</strong> I participated in the <a href='https://more2024.sciencesconf.org/' target='_blank'>MORe2024</a></strong> \
@@ -48,10 +48,10 @@ export const publications = [
 ];
 
 export const teaching = [
-  "<strong>Linear Systems Theory</strong>, Graduate course at the Department of Mechanical and Aerospace Engineering, University of Californis San Diego, 2025",
-  "<strong>Algorithm and Data Structures Teaching Assistant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2023",
-  "<strong>Introduction to Programming Teaching Assistant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2021",
-  "<strong>Computational Tools for Engineering and Sciences Teaching Assistant</strong>, Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile, 2021",
+  "<strong>Linear Systems Theory</strong> (Fall 2025), Graduate course at the Department of Mechanical and Aerospace Engineering, University of California San Diego",
+  "<strong>Algorithm and Data Structures Teaching Assistant</strong> (Fall 2023), Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile",
+  "<strong>Introduction to Programming Teaching Assistant</strong> (Spring 2021), Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile",
+  "<strong>Computational Tools for Engineering and Sciences Teaching Assistant</strong> (Fall 2021), Undergraduate course at the Department of Computer Science, FCFM, Universidad de Chile",
 ];
 
 export const talks = [
