@@ -25,6 +25,11 @@ export const news = [
     date: "September-December 2025",
     details: "I really enyojed being the teaching assistant for the <em>Linear Systems Theory</em> (MAE 280A) course at UC San Diego. In this PhD level course, the students learned about linear algebra core concepts, and properties of linear dynamical systems.",
   },
+  {
+    date: "October 2025",
+    details: "I have become the president of the <a href='https://sites.google.com/eng.ucsd.edu/mae-graduate-women' target='_blank'>UCSD MAE Graduate Women</a> group! Through our events, we aim to promote and encourage a sense of inclusive community \
+    in the MAE department at UCSD."
+  },
     {
       date: "September 2024",
       details: "I moved from Santiago, Chile to San Diego, CA to start my Ph.D. in Mechanical and Aerospace Engineering at UC San Diego!",
