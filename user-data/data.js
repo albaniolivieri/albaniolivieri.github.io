@@ -6,7 +6,6 @@ export const bio = [
   polynomialization for PDEs, from symbolical models and from data.",
   "In 2024 I obtained both my B.Sc. in Computer Science Engineering and my M.Sc. in Computer Science \
   from <a href='https://uchile.cl/' target='_blank'>Universidad de Chile</a>.",
-  "You can find my <a href='../CV_Albani_Olivieri.pdf' target='_blank'>CV here</a>."
   
   // "I come from city called Coro, close to the coast in Venezuela. Thanks to my family's support, I was able to persue a carreer "
   // Talk about my internship in France
@@ -120,7 +119,7 @@ export const publications = [
 // Teaching: title (class name), date, text (description)
 export const teaching = [
   {
-    title: "Linear Systems Theory Teaching Assistant",
+    title: "Linear Systems Theory (MAE 280A) - Teaching Assistant",
     date: "Fall 2025",
     text: "<strong>Graduate</strong> course at the <strong>Department of Mechanical and Aerospace Engineering</strong>, <strong>University of California San Diego</strong>. \
     This course covers the linear algebra concepts of linear algebra (inner products, outer products, vector norms, matrix norms, \
@@ -130,21 +129,21 @@ export const teaching = [
     and control systems design (state estimation, pole assignment, linear quadratic control).",
   },
   {
-    title: "Algorithm and Data Structures Teaching Assistant",
+    title: "Algorithm and Data Structures (CC3001) - Teaching Assistant",
     date: "Fall 2023",
     text: "<strong>Undergraduate</strong> course at the <strong>Department of Computer Science</strong>, <strong>FCFM</strong>, <strong>Universidad de Chile</strong>. \
     This course covers basic concepts of efficient algorithm design (iterative and recursive), \
     algorithm analysis, and data structures (arrays, linked structures, graphs).",
   },
   {
-    title: "Introduction to Programming Teaching Assistant",
+    title: "Introduction to Programming (CC1002) - Teaching Assistant",
     date: "Spring 2021",
     text: "<strong>Undergraduate</strong> course at the <strong>Department of Computer Science</strong>, <strong>FCFM</strong>, <strong>Universidad de Chile</strong>. \
     This course introduces students to the basics concepts of programming. Students learn to solve problems methodically, writing programs that respond to a variety\
     of requests and purposes. ",
   },
   {
-    title: "Computational Tools for Engineering and Sciences Teaching Assistant",
+    title: "Computational Tools for Engineering and Sciences (CC1000) - Teaching Assistant",
     date: "Fall 2021",
     text: "<strong>Undergraduate</strong> course at the <strong>Department of Computer Science</strong>, <strong>FCFM</strong>, <strong>Universidad de Chile</strong>. \
     This course teaches basic computational tools such as Excel, R, MATLAB, Maple, and LaTeX. The students then apply these tools to solve simple engineering and \

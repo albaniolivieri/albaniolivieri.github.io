@@ -121,6 +121,16 @@ a:hover {
   margin-bottom: 0;
 }
 
+/* Home tab: underline text links (bio), keep button and social icons as-is */
+#panel-home a {
+  text-decoration: underline;
+}
+
+#panel-home .btn-cv,
+#panel-home .social-icon {
+  text-decoration: none;
+}
+
 .home-actions {
   text-align: center;
   margin-bottom: 2.5rem;
@@ -244,6 +254,15 @@ a:hover {
 }
 
 .news-entry__title a:hover {
+  opacity: 0.8;
+}
+
+/* Events tab: show hyperlinks as underlined */
+#panel-events a {
+  text-decoration: underline;
+}
+
+#panel-events .news-entry__title a:hover {
   opacity: 0.8;
 }
 
