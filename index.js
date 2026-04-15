@@ -302,7 +302,7 @@ function populateSoftwareSection(items) {
   }
   if (closeBtn) closeBtn.addEventListener("click", closeCitationModal);
   (items || []).forEach((item) => {
-    const { title, version, repo, doi, description, citation } = item;
+    const { title, version, link, repo, doi, description, citation } = item;
     if (!title && !description) return;
     const entry = document.createElement("article");
     entry.className = "software-entry";
@@ -318,9 +318,26 @@ function populateSoftwareSection(items) {
       subtitleEl.textContent = version;
       entry.appendChild(subtitleEl);
     }
-    if (repo || doi || (citation && (citation.heading || (citation.refs && citation.refs.length)))) {
+    const hasCitation = citation && (citation.heading || (citation.refs && citation.refs.length));
+    const normalizedLink =
+      link && String(link).trim().length
+        ? String(link).trim().startsWith("http")
+          ? String(link).trim()
+          : `https://${String(link).trim().replace(/^\/+/, "")}`
+        : "";
+    if (normalizedLink || repo || doi || hasCitation) {
       const ul = document.createElement("ul");
       ul.className = "software-entry__links";
+      if (normalizedLink) {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = normalizedLink;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = "URL";
+        li.appendChild(a);
+        ul.appendChild(li);
+      }
       if (repo) {
         const li = document.createElement("li");
         const a = document.createElement("a");
@@ -341,7 +358,7 @@ function populateSoftwareSection(items) {
         li.appendChild(a);
         ul.appendChild(li);
       }
-      if (citation && (citation.heading || (citation.refs && citation.refs.length))) {
+      if (hasCitation) {
         const li = document.createElement("li");
         const btn = document.createElement("button");
         btn.type = "button";

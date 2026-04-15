@@ -177,4 +177,10 @@ export const software = [
 }`,
     },
   },
+  {
+    title: "QuadratizeIt",
+    link: "quadratizeit.com",
+    repo: "https://github.com/albaniolivieri/QuadratizePDE",
+    description: "A website that provides a simple interface to obtain and visualize quadratizations for polynomial and rational PDEs.",
+  }
 ];
