@@ -42,7 +42,8 @@ export const events = [
     date: "May 2026",
     title: "Young Mathematicians in Model Order Reduction (YMMOR) conference",
     link: "https://seminar.math.vt.edu/ymmor/",
-    details: "Hosted by Virginia Tech in Blacksburg, Virginia. I will be giving a <strong>talk</strong> on my work on quadratization for nonlinear PDEs.",
+    details: "Hosted by Virginia Tech in Blacksburg, Virginia. I gave a <strong>talk</strong> on my work on quadratization for nonlinear PDEs. \
+    It was a great experience to meet other early-career researchers in the field of model reduction and learn about their work!",
   },
   {
     date: "December 2025",
