@@ -15,6 +15,12 @@ export const bio = [
 // News: date and details only (e.g. paper accepted, award, etc.)
 export const news = [
   {
+    date: "June 2026",
+    details: "I was selected as a recipient of the <a href='https://chateaubriand-fellowship.org/' target='_blank'><strong><em>2026-2027 Chateaubriand STEM Fellowship</em><strong></a>! Offered by the Embassy of France in the United States, this fellowship supports outstanding PhD students\
+    from U.S. institutions conducting part of their doctoral research in France. As part of this fellowship, I will be at École Polytechnique collaborating with Prof. Gleb Pogudin during Fall 2026. I am deeply honored by this recognition and grateful for \
+    the opportunity to strengthen the scientific collaboration between the United States and France."
+  },
+  {
     date: "February 2026",
     details: "The preprint of our paper <a href='https://arxiv.org/abs/2602.22371' target='_blank'>Quadratization of Autonomous Partial Differential Equations: Theory and Algorithms</a> is now available on arXiv! \
     In this collaboration with Prof. Gleb Pogudin at École Polytechnique, we developed theory and software for finding quadratic transformations of nonlinear PDEs to facilitate their analysis, control, and model reduction. It's been truly exciting to work on this and \
