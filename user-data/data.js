@@ -16,7 +16,7 @@ export const bio = [
 export const news = [
   {
     date: "June 2026",
-    details: "I was selected as a recipient of the <a href='https://chateaubriand-fellowship.org/' target='_blank'><strong><em>2026-2027 Chateaubriand STEM Fellowship</em><strong></a>! Offered by the Embassy of France in the United States, this fellowship supports outstanding PhD students\
+    details: "I was selected as a recipient of the <a href='https://chateaubriand-fellowship.org/' target='_blank'><strong><em>2026-2027 Chateaubriand STEM Fellowship</em></strong></a>! Offered by the Embassy of France in the United States, this fellowship supports outstanding PhD students\
     from U.S. institutions conducting part of their doctoral research in France. As part of this fellowship, I will be at École Polytechnique collaborating with Prof. Gleb Pogudin during Fall 2026. I am deeply honored by this recognition and grateful for \
     the opportunity to strengthen the scientific collaboration between the United States and France."
   },
